@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 40, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/hp/Desktop/devops-mlops-lab/src/app/api/health/route.js"],"sourcesContent":["export async function GET() {\r\n  const env = process.env.ENV || \"local\";\r\n\r\n  return new Response(\r\n    JSON.stringify({ status: \"ok\", env }),\r\n    {\r\n      status: 200,\r\n      headers: { \"Content-Type\": \"application/json\" },\r\n    }\r\n  );\r\n}"],"names":[],"mappings":";;;;AAAO,eAAe;IACpB,MAAM,MAAM,QAAQ,GAAG,CAAC,GAAG,IAAI;IAE/B,OAAO,IAAI,SACT,KAAK,SAAS,CAAC;QAAE,QAAQ;QAAM;IAAI,IACnC;QACE,QAAQ;QACR,SAAS;YAAE,gBAAgB;QAAmB;IAChD;AAEJ"}}]
+}

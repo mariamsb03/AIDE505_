@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 40, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/hp/Desktop/devops-mlops-lab/src/app/api/add/route.js"],"sourcesContent":["export async function GET(request) {\r\n  const { searchParams } = new URL(request.url);\r\n  const a = Number(searchParams.get(\"a\"));\r\n  const b = Number(searchParams.get(\"b\"));\r\n\r\n  return new Response(\r\n    JSON.stringify({ result: a + b }),\r\n    {\r\n      status: 200,\r\n      headers: { \"Content-Type\": \"application/json\" },\r\n    }\r\n  );\r\n}"],"names":[],"mappings":";;;;AAAO,eAAe,IAAI,OAAO;IAC/B,MAAM,EAAE,YAAY,EAAE,GAAG,IAAI,IAAI,QAAQ,GAAG;IAC5C,MAAM,IAAI,OAAO,aAAa,GAAG,CAAC;IAClC,MAAM,IAAI,OAAO,aAAa,GAAG,CAAC;IAElC,OAAO,IAAI,SACT,KAAK,SAAS,CAAC;QAAE,QAAQ,IAAI;IAAE,IAC/B;QACE,QAAQ;QACR,SAAS;YAAE,gBAAgB;QAAmB;IAChD;AAEJ"}}]
+}

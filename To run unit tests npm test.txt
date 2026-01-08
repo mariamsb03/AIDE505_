@@ -1,0 +1,2 @@
+To run unit tests: npm test
+docker run -p 3000:3000 -e ENV=online nestjs-devops-lab
